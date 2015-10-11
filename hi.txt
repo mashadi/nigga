@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Form</h2>
+<form classs="subscribe form" name="subscription form" method="post" action="mailto:yourmail@email.com" enctype="text/plain"><hr />
+First name: <br />
+<input id="fname" type="text"  name="Firstname" required="required" /><br />
+Last name: <br />
+<input id="lname" type="text"  name="Lastname" required="required" /><br />
+Password: <br />
+<input id="password" type="password"  required="required" /><br />
+Email: <br />
+<input id="email" type="email"  name="email" /><br />
+Address: <br />
+<input id="address" type="text"  name="address" /><br />
+Gender: <br />
+<input type="radio" name="sex" value="male" checked>Male <br />
+  <br/ >
+<input type="radio" name="sex" value="female">Female <br />
+ Birthday: <br />
+<input type="month" dropzone="copy" /> <br />
+
+<input type="submit" value="submit" /> <br />
+
+</form>
+
+</body>
+</html>
